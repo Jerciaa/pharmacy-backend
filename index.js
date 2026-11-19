@@ -10,7 +10,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Routes
 app.use('/api/medicines', medicineRoutes);
 app.use('/api/batches', batchRoutes);
 app.use('/api/invoices', invoiceRoutes);
